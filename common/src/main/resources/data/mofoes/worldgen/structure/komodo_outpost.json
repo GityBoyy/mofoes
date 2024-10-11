@@ -1,0 +1,45 @@
+{
+  "type": "jigsaw",
+  "biomes": [
+    "minecraft:jungle",
+    "minecraft:sparse_jungle",
+    "minecraft:bamboo_jungle",
+    "minecraft:swamp",
+    "minecraft:savanna",
+    "minecraft:savanna_plateau"
+  ],
+  "step": "surface_structures",
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "mofoes:komodo",
+          "weight": 8,
+          "minCount": 2,
+          "maxCount": 6
+        },
+        {
+          "type": "mofoes:komodo_brute",
+          "weight": 6,
+          "minCount": 2,
+          "maxCount": 4
+        },
+        {
+          "type": "mofoes:komodo_sorcerer",
+          "weight": 6,
+          "minCount": 2,
+          "maxCount": 4
+        }
+      ]
+    }
+  },
+  "start_pool": "mofoes:komodo_outpost/start_pool",
+  "size": 1,
+  "start_height": {
+    "absolute": 0
+  },
+  "terrain_adaptation": "beard_thin",
+  "max_distance_from_center": 80,
+  "use_expansion_hack": false
+}

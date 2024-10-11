@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "mofoes",
+  "version": "${version}",
+  "name": "MoFoes",
+  "accessWidener": "mofoes.accesswidener",
+  "description": "",
+  "authors": [
+    "Small_Chubby"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "MIT",
+  "icon": "assets/mofoes/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.chubby.github.mofoes.fabric.MofoesFabric"
+    ],
+    "client": [
+      "org.chubby.github.mofoes.fabric.client.MofoesFabricClient"
+    ]
+  },
+  "mixins": [
+    "mofoes.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "architectury": ">=9.2.14",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

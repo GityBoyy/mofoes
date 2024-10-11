@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "mofoes:mesa_hogman_camp",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 306978625,
+    "spacing": 20,
+    "separation": 15
+  }
+}

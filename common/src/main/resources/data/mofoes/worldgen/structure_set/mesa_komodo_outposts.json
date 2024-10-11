@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "mofoes:mesa_komodo_outpost",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 44868287,
+    "spacing": 20,
+    "separation": 15
+  }
+}

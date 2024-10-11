@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mofoes:item/hogmen_spawn_egg"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "mofoes:desert_hogman_outpost",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1575026456,
+    "spacing": 20,
+    "separation": 15
+  }
+}

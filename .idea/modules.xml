@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/mofoes.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/mofoes.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/mofoes.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/mofoes.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/mofoes.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/mofoes.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/mofoes.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/mofoes.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/mofoes.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/mofoes.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/mofoes.forge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/mofoes.forge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/mofoes.forge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/mofoes.forge.test.iml" />
+    </modules>
+  </component>
+</project>

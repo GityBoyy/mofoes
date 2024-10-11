@@ -1,0 +1,32 @@
+{
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2024-10-05 16:06:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-10-05 16:03:27 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:old_growth_pine_taiga": "2024-10-05 16:03:54 +0530",
+      "minecraft:beach": "2024-10-05 16:04:21 +0530",
+      "minecraft:river": "2024-10-05 16:06:02 +0530",
+      "minecraft:snowy_plains": "2024-10-05 16:03:29 +0530",
+      "minecraft:cold_ocean": "2024-10-05 16:06:11 +0530",
+      "minecraft:ocean": "2024-10-05 16:09:47 +0530"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_red_mushroom": "2024-10-05 16:06:51 +0530"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

@@ -1,0 +1,165 @@
+---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 2024-10-10 14:13:00
+Description: Ticking entity
+
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.ai.attributes.AttributeInstance.hasModifier(net.minecraft.world.entity.ai.attributes.AttributeModifier)" because "gravity" is null
+	at net.minecraft.world.entity.LivingEntity.travel(LivingEntity.java:2024) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:computing_frames,pl:unprotect:A,re:classloading,pl:unprotect:A}
+	at net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:2605) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:computing_frames,pl:unprotect:A,re:classloading,pl:unprotect:A}
+	at net.minecraft.world.entity.Mob.aiStep(Mob.java:536) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:computing_frames,pl:accesstransformer:B,pl:unprotect:A,re:classloading,pl:accesstransformer:B,pl:unprotect:A}
+	at net.minecraft.world.entity.monster.Monster.aiStep(Monster.java:42) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading,pl:unprotect:A}
+	at org.chubby.github.mofoes.common.entity.komodo.KomodoZealot.aiStep(KomodoZealot.java:196) ~[9732072217953497842.jar%23207!/:?] {re:classloading}
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2298) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:computing_frames,pl:unprotect:A,re:classloading,pl:unprotect:A}
+	at net.minecraft.world.entity.Mob.tick(Mob.java:337) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:computing_frames,pl:accesstransformer:B,pl:unprotect:A,re:classloading,pl:accesstransformer:B,pl:unprotect:A}
+	at org.chubby.github.mofoes.common.entity.komodo.AbstractSorcerer.tick(AbstractSorcerer.java:82) ~[9732072217953497842.jar%23207!/:?] {re:classloading}
+	at org.chubby.github.mofoes.common.entity.komodo.KomodoZealot.tick(KomodoZealot.java:155) ~[9732072217953497842.jar%23207!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:693) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,re:mixin,pl:accesstransformer:B,pl:unprotect:A}
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:479) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,re:mixin,pl:accesstransformer:B,pl:unprotect:A}
+	at net.minecraft.server.level.ServerLevel.method_31420(ServerLevel.java:343) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,re:mixin,pl:accesstransformer:B,pl:unprotect:A}
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:54) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:323) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,re:mixin,pl:accesstransformer:B,pl:unprotect:A}
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:893) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:814) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:89) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:661) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A}
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:251) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Suspected Mod: 
+	generated_72cc556 (generated_72cc556), Version: 1
+		at TRANSFORMER/generated_72cc556@1/org.chubby.github.mofoes.common.entity.komodo.KomodoZealot.aiStep(KomodoZealot.java:196)
+Stacktrace:
+	at net.minecraft.world.entity.LivingEntity.travel(LivingEntity.java:2024) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:computing_frames,pl:unprotect:A,re:classloading,pl:unprotect:A}
+	at net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:2605) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:computing_frames,pl:unprotect:A,re:classloading,pl:unprotect:A}
+	at net.minecraft.world.entity.Mob.aiStep(Mob.java:536) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:computing_frames,pl:accesstransformer:B,pl:unprotect:A,re:classloading,pl:accesstransformer:B,pl:unprotect:A}
+	at net.minecraft.world.entity.monster.Monster.aiStep(Monster.java:42) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading,pl:unprotect:A}
+	at org.chubby.github.mofoes.common.entity.komodo.KomodoZealot.aiStep(KomodoZealot.java:196) ~[9732072217953497842.jar%23207!/:?] {re:classloading}
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2298) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:computing_frames,pl:unprotect:A,re:classloading,pl:unprotect:A}
+	at net.minecraft.world.entity.Mob.tick(Mob.java:337) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:computing_frames,pl:accesstransformer:B,pl:unprotect:A,re:classloading,pl:accesstransformer:B,pl:unprotect:A}
+	at org.chubby.github.mofoes.common.entity.komodo.AbstractSorcerer.tick(AbstractSorcerer.java:82) ~[9732072217953497842.jar%23207!/:?] {re:classloading}
+	at org.chubby.github.mofoes.common.entity.komodo.KomodoZealot.tick(KomodoZealot.java:155) ~[9732072217953497842.jar%23207!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:693) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,re:mixin,pl:accesstransformer:B,pl:unprotect:A}
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:479) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,re:mixin,pl:accesstransformer:B,pl:unprotect:A}
+	at net.minecraft.server.level.ServerLevel.method_31420(ServerLevel.java:343) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,re:mixin,pl:accesstransformer:B,pl:unprotect:A}
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:54) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:323) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,re:mixin,pl:accesstransformer:B,pl:unprotect:A}
+-- Entity being ticked --
+Details:
+	Entity Type: mofoes:komodo_zealot (org.chubby.github.mofoes.common.entity.komodo.KomodoZealot)
+	Entity ID: 114
+	Entity Name: entity.mofoes.komodo_zealot
+	Entity's Exact location: 321.45, 65.00, -455.34
+	Entity's Block location: World: (321,65,-456), Section: (at 1,1,8 in 20,4,-29; chunk contains blocks 320,-64,-464 to 335,319,-449), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,-64,-512 to 511,319,-1)
+	Entity's Momentum: 0.00, -0.08, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: null
+Stacktrace:
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:479) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,re:mixin,pl:accesstransformer:B,pl:unprotect:A}
+	at net.minecraft.server.level.ServerLevel.method_31420(ServerLevel.java:343) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,re:mixin,pl:accesstransformer:B,pl:unprotect:A}
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:54) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:323) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,re:mixin,pl:accesstransformer:B,pl:unprotect:A}
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:893) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:814) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:89) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:661) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A}
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:251) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {}
+
+
+-- Affected level --
+Details:
+	All players: 1 total; [ServerPlayer['Dev'/106, l='ServerLevel[New World]', x=318.14, y=65.00, z=-455.85]]
+	Chunk stats: 3019
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (0,115,0), Section: (at 0,3,0 in 0,7,0; chunk contains blocks 0,-64,0 to 15,319,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Level time: 57774 game time, 60104 day time
+	Level name: New World
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+	Level weather: Rain time: 64843 (now: false), thunder time: 76199 (now: false)
+	Known server brands: forge
+	Removed feature flags: 
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:893) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:814) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:89) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:661) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A}
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:251) ~[forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1.20.1-loom.mappings.1_20_1.layered+hash.1900676243-v2-forge-1.20.1-47.3.10.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 17.0.12, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 470075952 bytes (448 MiB) / 2065694720 bytes (1970 MiB) up to 2065694720 bytes (1970 MiB)
+	CPUs: 6
+	Processor Vendor: GenuineIntel
+	Processor Name: 13th Gen Intel(R) Core(TM) i3-1305U
+	Identifier: Intel64 Family 6 Model 186 Stepping 3
+	Microarchitecture: unknown
+	Frequency (GHz): 2.50
+	Number of physical packages: 1
+	Number of physical CPUs: 5
+	Number of logical CPUs: 6
+	Graphics card #0 name: Intel(R) UHD Graphics
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MB): 3938.35
+	Graphics card #0 deviceId: 0xa7a9
+	Graphics card #0 versionInfo: DriverVersion=32.0.101.6078
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Virtual memory max (MB): 25040.39
+	Virtual memory used (MB): 18156.94
+	Swap memory total (MB): 17163.69
+	Swap memory used (MB): 7678.19
+	JVM Flags: 0 total; 
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Dev'/106, l='ServerLevel[New World]', x=318.14, y=65.00, z=-455.85]]
+	Data Packs: vanilla, mod:forge, mod:architectury (incompatible), mod:mofoes, mod:generated_72cc556 (incompatible)
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Launched Version: MOD_DEV
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		mixin-patched-0.8.5.11.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.10.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.10.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.10.jar runtime_enum_extender PLUGINSERVICE 
+		unprotect-1.2.0.jar unprotect PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.10.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.10.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar ArchitecturyMixinRemapperInjector TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		forge-1.20.1-47.3.10-minecraft-merged-c5fafac7d2-1|Minecraft                     |minecraft                     |1.20.1              |DONE      |Manifest: NOSIGNATURE
+		                                                  |Forge                         |forge                         |47.3.10             |DONE      |Manifest: NOSIGNATURE
+		architectury-forge-9.2.14.jar                     |Architectury                  |architectury                  |9.2.14              |DONE      |Manifest: NOSIGNATURE
+		main                                              |MoFoes                        |mofoes                        |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		9732072217953497842.jar                           |generated_72cc556             |generated_72cc556             |1                   |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: b5547e86-1008-400c-b8a7-77fc744f39c5
+	FML: 47.3
+	Forge: net.minecraftforge:47.3.10
