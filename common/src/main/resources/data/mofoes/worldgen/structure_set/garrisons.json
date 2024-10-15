@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "mofoes:garrison",
+      "weight": 1
+    }
+  ],
+  "start_pool": "mofoes:garrison/start_pool",
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 0,
+    "spacing": 20,
+    "separation": 15
+  }
+}

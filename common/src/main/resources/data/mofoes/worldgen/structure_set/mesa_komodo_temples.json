@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "mofoes:mesa_komodo_temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 156078349,
+    "spacing": 20,
+    "separation": 15
+  }
+}

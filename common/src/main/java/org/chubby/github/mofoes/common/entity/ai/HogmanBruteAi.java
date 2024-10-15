@@ -10,11 +10,14 @@ import net.minecraft.world.entity.ai.Brain;
 import net.minecraft.world.entity.ai.behavior.*;
 import net.minecraft.world.entity.ai.memory.MemoryModuleType;
 import net.minecraft.world.entity.ai.sensing.Sensor;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.schedule.Activity;
+import net.minecraft.world.item.*;
 import org.chubby.github.mofoes.common.entity.EntityHogmen;
 import org.chubby.github.mofoes.common.entity.HogmanBrute;
 import org.chubby.github.mofoes.common.init.ModEntities;
 
+import java.util.Iterator;
 import java.util.Optional;
 
 public class HogmanBruteAi 
@@ -134,4 +137,24 @@ public class HogmanBruteAi
 
         });
     }
+
+    public static boolean isWearingFullChain(Player player) {
+        // Get the player's armor slots as an Iterable (helmet, chestplate, leggings, boots)
+        Iterable<ItemStack> armorSlots = player.getArmorSlots();
+        int chainCount = 0;
+
+        // Iterate through each armor slot
+        for (ItemStack armor : armorSlots) {
+            // Check if the armor is chainmail
+            if (armor.getItem() == Items.CHAINMAIL_HELMET ||
+                    armor.getItem() == Items.CHAINMAIL_CHESTPLATE ||
+                    armor.getItem() == Items.CHAINMAIL_LEGGINGS ||
+                    armor.getItem() == Items.CHAINMAIL_BOOTS) {
+                chainCount++;
+            }
+        }
+
+        return chainCount == 4;
+    }
+
 }

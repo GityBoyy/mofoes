@@ -4,7 +4,7 @@
 [Architectury Transformer DEBUG] Provided 102 classpath jar(s):
 [Architectury Transformer DEBUG]  - C:\Users\sreek\.gradle\caches\fabric-loom\1.20.1\forge\1.20.1-47.3.10\client-extra.jar
 [Architectury Transformer DEBUG]  - C:\Users\sreek\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-injectables\1.0.10\62db2a366d662606d1b23ad02ccc3212ed37ec3\architectury-injectables-1.0.10.jar
-[Architectury Transformer DEBUG]  - C:\Users\sreek\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.16.5\fc45b2f400c08c023cdbe75c9b0aebe7a2b61579\fabric-loader-0.16.5.jar
+[Architectury Transformer DEBUG]  - C:\Users\sreek\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.16.7\18ce52a3228434ba2aa8c1936728ef4eacad64b8\fabric-loader-0.16.7.jar
 [Architectury Transformer DEBUG]  - C:\Users\sreek\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\24.1.0\7af6a669488450c4a07c2c3254e2151df42d7d04\annotations-24.1.0.jar
 [Architectury Transformer DEBUG]  - C:\Users\sreek\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar
 [Architectury Transformer DEBUG]  - C:\Users\sreek\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlearlydisplay\1.20.1-47.3.10\1cd7230664c7e7e200f90b0eacea7a193487d81c\fmlearlydisplay-1.20.1-47.3.10.jar
@@ -104,20 +104,20 @@
 [Architectury Transformer DEBUG]  - C:\Users\sreek\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.82.Final\c7350a71920f3ae9142945e25fed4846cce53374\netty-transport-native-epoll-4.1.82.Final-linux-x86_64.jar
 [Architectury Transformer DEBUG]  - C:\Users\sreek\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.82.Final\476409d6255001ca53a55f65b01c13822f8dc93a\netty-transport-native-epoll-4.1.82.Final-linux-aarch_64.jar
 [Architectury Transformer DEBUG]  - D:\Programming\Mods-2\MoFoes\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900676243_v2_forge_1_20_1_47_3_10_forge\dev\architectury\architectury-forge\9.2.14\architectury-forge-9.2.14.jar
-[Architectury Transformer] Read classpath in 7.042 s
+[Architectury Transformer] Read classpath in 3.428 s
 [Architectury Transformer DEBUG] Closed File Systems for D:\Programming\Mods-2\MoFoes\common\build\devlibs\MoFoes-common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Transforming 8 transformer(s) from D:\Programming\Mods-2\MoFoes\common\build\devlibs\MoFoes-common-1.0.0-dev.jar to C:\Users\sreek\AppData\Local\Temp\7581006469140345915.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@27ae2fd0
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@29176cc1
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@2f177a4b
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@4278a03f
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@147ed70f
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@61dd025
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeForgeMod@124c278f
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@15b204a1
-[Architectury Transformer DEBUG] Transforming from D:\Programming\Mods-2\MoFoes\common\build\devlibs\MoFoes-common-1.0.0-dev.jar to C:\Users\sreek\AppData\Local\Temp\7581006469140345915.jar with 8 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Transforming 8 transformer(s) from D:\Programming\Mods-2\MoFoes\common\build\devlibs\MoFoes-common-1.0.0-dev.jar to C:\Users\sreek\AppData\Local\Temp\6865523273295938823.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@778d1062
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@670002
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@1f0f1111
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@49c386c8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@56528192
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@6e0dec4a
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeForgeMod@96def03
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@5ccddd20
+[Architectury Transformer DEBUG] Transforming from D:\Programming\Mods-2\MoFoes\common\build\devlibs\MoFoes-common-1.0.0-dev.jar to C:\Users\sreek\AppData\Local\Temp\6865523273295938823.jar with 8 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
@@ -128,39 +128,39 @@
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/model/AbstractKomodoModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/model/HogmenModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/model/BisonModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/renderer/HogmenRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/renderer/KomodoSorcererRenderer with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/renderer/AbstractKomodoRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/renderer/BisonRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/renderer/HogmenRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/renderer/StalkerEndermanRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/renderer/HogmenBruteRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/renderer/KomodoZealotRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/renderer/AbstractKomodoRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/renderer/BasicKomodoRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/renderer/KomodoBruteRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/renderer/layer/ModEyesLayer with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/commands/CheckSpawnCommand with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/EntityHogmen with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/EntityBison with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/StalkerEnderman with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/EntityHogmen with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/EntityBison$SpawnData with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/HogmanBrute with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/EntityBison$SpawnData with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/ai/HogmenAi with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/ai/HogmanBruteAi with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/ai/behaviour/StartAdmiringItemIfSeen with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/ai/behaviour/StopHoldingItemIfNoLongerAdmiring with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/ai/behaviour/RushToItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/ai/behaviour/StopHoldingItemIfNoLongerAdmiring with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/ai/memory/MemoryModules with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/ai/sensor/HogmenSensor with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/ai/sensor/HogmenBruteSensor with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/ai/sensor/ModSensors with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/goals/ProtectAnimalGoal with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/goals/StayWithEntityGoal with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/goals/ProtectAnimalGoal with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/KomodoSorcerer$EvokerAttackSpellGoal with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/BasicKomodo with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/KomodoZealot with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/KomodoSorcerer with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/AbstractSorcerer$IllagerSpell with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/AbstractSorcerer$SpellcasterCastingSpellGoal with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/KomodoSorcerer$EvokerAttackSpellGoal with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/KomodoZealot with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/AbstractKomodo with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/AbstractKomodo$KomodoArmPoses with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/KomodoZealot$IllusionerMirrorSpellGoal with maxs=true frames=true
@@ -168,15 +168,15 @@
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/KomodoBrute$BreakGoalDoor with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/AbstractSorcerer with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/AbstractSorcerer$SpellcasterUseSpellGoal with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/KomodoSorcerer$EvokerCastingSpellGoal with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/KomodoZealot$1 with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/KomodoBrute with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/KomodoSorcerer$EvokerCastingSpellGoal with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/spawn/BisonSpawnData with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/init/ModEntities with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/init/ModCreativeTab with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/init/ModItems with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/world/IComplexSpawn with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/world/HogmanOutpost with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/world/garriso/GarrisonFeature with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/tags/ModTags$Items with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/tags/ModTags with maxs=true frames=true
 [Architectury Transformer DEBUG] Checking whether /architectury.common.json is a mixin config.
@@ -186,15 +186,15 @@
 [Architectury Transformer DEBUG] Found mixin config(s): mofoes.mixins.json
 [Architectury Transformer DEBUG] Appended Launch Argument: [--mixin.config, mofoes.mixins.json]
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\sreek\AppData\Local\Temp\7581006469140345915.jar
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\sreek\AppData\Local\Temp\6865523273295938823.jar
 [Architectury Transformer] Listening at D:\Programming\Mods-2\MoFoes\common\build\devlibs\MoFoes-common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Temporary jar [C:\Users\sreek\AppData\Local\Temp\7581006469140345915.jar] contains packages: org.chubby.github.mofoes.common.world, org.chubby.github.mofoes.common.init, org.chubby.github.mofoes.tags, org.chubby.github.mofoes, org.chubby.github.mofoes.common.commands, org.chubby.github.mofoes.common.entity.ai.memory, org.chubby.github.mofoes.common.entity.komodo, org.chubby.github.mofoes.client.renderer, org.chubby.github.mofoes.client, org.chubby.github.mofoes.common.entity.ai, org.chubby.github.mofoes.common.entity.spawn, org.chubby.github.mofoes.common.entity.ai.sensor, org.chubby.github.mofoes.common.entity.ai.behaviour, org.chubby.github.mofoes.common.entity, org.chubby.github.mofoes.client.model, org.chubby.github.mofoes.common.entity.goals, org.chubby.github.mofoes.client.renderer.layer
+[Architectury Transformer DEBUG] Temporary jar [C:\Users\sreek\AppData\Local\Temp\6865523273295938823.jar] contains packages: org.chubby.github.mofoes.common.world, org.chubby.github.mofoes.common.init, org.chubby.github.mofoes.tags, org.chubby.github.mofoes, org.chubby.github.mofoes.common.commands, org.chubby.github.mofoes.common.entity.ai.memory, org.chubby.github.mofoes.common.entity.komodo, org.chubby.github.mofoes.client.renderer, org.chubby.github.mofoes.client, org.chubby.github.mofoes.common.entity.ai, org.chubby.github.mofoes.common.world.garriso, org.chubby.github.mofoes.common.entity.spawn, org.chubby.github.mofoes.common.entity.ai.sensor, org.chubby.github.mofoes.common.entity.ai.behaviour, org.chubby.github.mofoes.common.entity, org.chubby.github.mofoes.client.model, org.chubby.github.mofoes.common.entity.goals, org.chubby.github.mofoes.client.renderer.layer
 [Architectury Transformer DEBUG] Closed File Systems for D:\Programming\Mods-2\MoFoes\common\build\devlibs\MoFoes-common-1.0.0-dev.jar
 [Architectury Transformer DEBUG] Classpath entry [D:\Programming\Mods-2\MoFoes\forge\build\resources\main] contains packages: 
 [Architectury Transformer DEBUG] Classpath entry [D:\Programming\Mods-2\MoFoes\common\build\resources\main] contains packages: 
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/Mofoes.class to org/chubby/github/mofoes/Mofoes.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping with Dirty Mappings...
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
@@ -202,434 +202,424 @@
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/Mofoes with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/Mofoes in 585.3 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/Mofoes in 338.9 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/init/ModEntities.class to org/chubby/github/mofoes/common/init/ModEntities.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/init/ModEntities with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/init/ModEntities in 129.1 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/init/ModEntities in 55.22 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/entity/ai/memory/MemoryModules.class to org/chubby/github/mofoes/common/entity/ai/memory/MemoryModules.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/ai/memory/MemoryModules with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/ai/memory/MemoryModules in 62.25 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/ai/memory/MemoryModules in 49.96 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/entity/ai/sensor/ModSensors.class to org/chubby/github/mofoes/common/entity/ai/sensor/ModSensors.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/ai/sensor/ModSensors with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/ai/sensor/ModSensors in 25.52 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/ai/sensor/ModSensors in 49.62 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/init/ModItems.class to org/chubby/github/mofoes/common/init/ModItems.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/init/ModItems with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/init/ModItems in 31.38 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/init/ModItems in 48.18 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/init/ModCreativeTab.class to org/chubby/github/mofoes/common/init/ModCreativeTab.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/init/ModCreativeTab with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/init/ModCreativeTab in 39.67 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/init/ModCreativeTab in 48.52 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/entity/EntityHogmen.class to org/chubby/github/mofoes/common/entity/EntityHogmen.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/EntityHogmen with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/EntityHogmen in 41.01 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/EntityHogmen in 55.50 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/entity/HogmanBrute.class to org/chubby/github/mofoes/common/entity/HogmanBrute.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/HogmanBrute with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/HogmanBrute in 31.99 ms
-[Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/client/renderer/HogmenRenderer.class to org/chubby/github/mofoes/client/renderer/HogmenRenderer.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/renderer/HogmenRenderer with maxs=true frames=true
-[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/renderer/HogmenRenderer in 23.23 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/HogmanBrute in 43.90 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/client/renderer/HogmenBruteRenderer.class to org/chubby/github/mofoes/client/renderer/HogmenBruteRenderer.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/renderer/HogmenBruteRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/renderer/HogmenBruteRenderer in 28.21 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/renderer/HogmenBruteRenderer in 109.8 ms
+[Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/client/renderer/HogmenRenderer.class to org/chubby/github/mofoes/client/renderer/HogmenRenderer.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/renderer/HogmenRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/renderer/HogmenRenderer in 64.51 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/entity/EntityBison.class to org/chubby/github/mofoes/common/entity/EntityBison.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/EntityBison with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/EntityBison in 34.96 ms
-[Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/entity/goals/ProtectAnimalGoal.class to org/chubby/github/mofoes/common/entity/goals/ProtectAnimalGoal.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/goals/ProtectAnimalGoal with maxs=true frames=true
-[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/goals/ProtectAnimalGoal in 22.48 ms
-[Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/entity/goals/StayWithEntityGoal.class to org/chubby/github/mofoes/common/entity/goals/StayWithEntityGoal.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/goals/StayWithEntityGoal with maxs=true frames=true
-[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/goals/StayWithEntityGoal in 18.88 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/EntityBison in 40.77 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/entity/komodo/AbstractKomodo.class to org/chubby/github/mofoes/common/entity/komodo/AbstractKomodo.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/AbstractKomodo with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/AbstractKomodo in 22.12 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/AbstractKomodo in 23.45 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/entity/komodo/BasicKomodo.class to org/chubby/github/mofoes/common/entity/komodo/BasicKomodo.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/BasicKomodo with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/BasicKomodo in 22.83 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/BasicKomodo in 30.63 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/entity/komodo/KomodoBrute.class to org/chubby/github/mofoes/common/entity/komodo/KomodoBrute.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/KomodoBrute with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/KomodoBrute in 23.40 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/KomodoBrute in 25.40 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/entity/komodo/KomodoBrute$BreakGoalDoor.class to org/chubby/github/mofoes/common/entity/komodo/KomodoBrute$BreakGoalDoor.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/KomodoBrute$BreakGoalDoor with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/KomodoBrute$BreakGoalDoor in 17.56 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/KomodoBrute$BreakGoalDoor in 38.94 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/entity/komodo/AbstractSorcerer.class to org/chubby/github/mofoes/common/entity/komodo/AbstractSorcerer.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/AbstractSorcerer with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/AbstractSorcerer in 20.08 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/AbstractSorcerer in 31.39 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/entity/komodo/KomodoSorcerer.class to org/chubby/github/mofoes/common/entity/komodo/KomodoSorcerer.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/KomodoSorcerer with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/KomodoSorcerer in 34.95 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/KomodoSorcerer in 23.16 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/entity/komodo/AbstractSorcerer$SpellcasterCastingSpellGoal.class to org/chubby/github/mofoes/common/entity/komodo/AbstractSorcerer$SpellcasterCastingSpellGoal.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/AbstractSorcerer$SpellcasterCastingSpellGoal with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/AbstractSorcerer$SpellcasterCastingSpellGoal in 19.35 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/AbstractSorcerer$SpellcasterCastingSpellGoal in 28.04 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/entity/komodo/KomodoSorcerer$EvokerCastingSpellGoal.class to org/chubby/github/mofoes/common/entity/komodo/KomodoSorcerer$EvokerCastingSpellGoal.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/KomodoSorcerer$EvokerCastingSpellGoal with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/KomodoSorcerer$EvokerCastingSpellGoal in 28.44 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/KomodoSorcerer$EvokerCastingSpellGoal in 20.14 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/entity/komodo/AbstractSorcerer$SpellcasterUseSpellGoal.class to org/chubby/github/mofoes/common/entity/komodo/AbstractSorcerer$SpellcasterUseSpellGoal.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/AbstractSorcerer$SpellcasterUseSpellGoal with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/AbstractSorcerer$SpellcasterUseSpellGoal in 40.59 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/AbstractSorcerer$SpellcasterUseSpellGoal in 25.46 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/entity/komodo/KomodoSorcerer$EvokerSummonSpellGoal.class to org/chubby/github/mofoes/common/entity/komodo/KomodoSorcerer$EvokerSummonSpellGoal.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/KomodoSorcerer$EvokerSummonSpellGoal with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/KomodoSorcerer$EvokerSummonSpellGoal in 26.48 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/KomodoSorcerer$EvokerSummonSpellGoal in 23.85 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/entity/komodo/KomodoSorcerer$EvokerAttackSpellGoal.class to org/chubby/github/mofoes/common/entity/komodo/KomodoSorcerer$EvokerAttackSpellGoal.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/KomodoSorcerer$EvokerAttackSpellGoal with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/KomodoSorcerer$EvokerAttackSpellGoal in 22.94 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/KomodoSorcerer$EvokerAttackSpellGoal in 18.60 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/entity/komodo/KomodoZealot.class to org/chubby/github/mofoes/common/entity/komodo/KomodoZealot.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/KomodoZealot with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/KomodoZealot in 26.81 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/KomodoZealot in 17.40 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/entity/komodo/KomodoZealot$IllusionerMirrorSpellGoal.class to org/chubby/github/mofoes/common/entity/komodo/KomodoZealot$IllusionerMirrorSpellGoal.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/KomodoZealot$IllusionerMirrorSpellGoal with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/KomodoZealot$IllusionerMirrorSpellGoal in 19.80 ms
-[Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/entity/komodo/KomodoZealot$1.class to org/chubby/github/mofoes/common/entity/komodo/KomodoZealot$1.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/KomodoZealot$1 with maxs=true frames=true
-[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/KomodoZealot$1 in 18.24 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/KomodoZealot$IllusionerMirrorSpellGoal in 15.94 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/entity/StalkerEnderman.class to org/chubby/github/mofoes/common/entity/StalkerEnderman.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/StalkerEnderman with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/StalkerEnderman in 21.70 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/StalkerEnderman in 16.17 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/entity/ai/sensor/HogmenSensor.class to org/chubby/github/mofoes/common/entity/ai/sensor/HogmenSensor.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/ai/sensor/HogmenSensor with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/ai/sensor/HogmenSensor in 18.79 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/ai/sensor/HogmenSensor in 20.85 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/entity/ai/sensor/HogmenBruteSensor.class to org/chubby/github/mofoes/common/entity/ai/sensor/HogmenBruteSensor.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/ai/sensor/HogmenBruteSensor with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/ai/sensor/HogmenBruteSensor in 37.33 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/ai/sensor/HogmenBruteSensor in 20.03 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/client/ModModelLayers.class to org/chubby/github/mofoes/client/ModModelLayers.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/ModModelLayers with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/ModModelLayers in 49.67 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/ModModelLayers in 22.06 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/client/model/BisonModel.class to org/chubby/github/mofoes/client/model/BisonModel.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/model/BisonModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/model/BisonModel in 74.80 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/model/BisonModel in 21.17 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/client/model/HogmenModel.class to org/chubby/github/mofoes/client/model/HogmenModel.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/model/HogmenModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/model/HogmenModel in 138.9 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/model/HogmenModel in 24.72 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/client/model/AbstractKomodoModel.class to org/chubby/github/mofoes/client/model/AbstractKomodoModel.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/model/AbstractKomodoModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/model/AbstractKomodoModel in 39.60 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/model/AbstractKomodoModel in 35.06 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/client/model/StalkerEndermanModel.class to org/chubby/github/mofoes/client/model/StalkerEndermanModel.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/model/StalkerEndermanModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/model/StalkerEndermanModel in 40.40 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/model/StalkerEndermanModel in 25.80 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/client/renderer/BisonRenderer.class to org/chubby/github/mofoes/client/renderer/BisonRenderer.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/renderer/BisonRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/renderer/BisonRenderer in 36.45 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/renderer/BisonRenderer in 45.39 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/client/renderer/AbstractKomodoRenderer.class to org/chubby/github/mofoes/client/renderer/AbstractKomodoRenderer.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/renderer/AbstractKomodoRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/renderer/AbstractKomodoRenderer in 15.02 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/renderer/AbstractKomodoRenderer in 49.22 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/client/renderer/BasicKomodoRenderer.class to org/chubby/github/mofoes/client/renderer/BasicKomodoRenderer.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/renderer/BasicKomodoRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/renderer/BasicKomodoRenderer in 17.37 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/renderer/BasicKomodoRenderer in 19.95 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/client/renderer/KomodoBruteRenderer.class to org/chubby/github/mofoes/client/renderer/KomodoBruteRenderer.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/renderer/KomodoBruteRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/renderer/KomodoBruteRenderer in 17.55 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/renderer/KomodoBruteRenderer in 23.48 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/client/renderer/KomodoSorcererRenderer.class to org/chubby/github/mofoes/client/renderer/KomodoSorcererRenderer.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/renderer/KomodoSorcererRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/renderer/KomodoSorcererRenderer in 16.81 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/renderer/KomodoSorcererRenderer in 21.08 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/client/renderer/StalkerEndermanRenderer.class to org/chubby/github/mofoes/client/renderer/StalkerEndermanRenderer.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/renderer/StalkerEndermanRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/renderer/StalkerEndermanRenderer in 16.96 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/renderer/StalkerEndermanRenderer in 15.62 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/client/renderer/layer/ModEyesLayer.class to org/chubby/github/mofoes/client/renderer/layer/ModEyesLayer.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/renderer/layer/ModEyesLayer with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/renderer/layer/ModEyesLayer in 14.79 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/renderer/layer/ModEyesLayer in 15.60 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/client/renderer/KomodoZealotRenderer.class to org/chubby/github/mofoes/client/renderer/KomodoZealotRenderer.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/client/renderer/KomodoZealotRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/renderer/KomodoZealotRenderer in 27.13 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/client/renderer/KomodoZealotRenderer in 32.50 ms
 [Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/commands/CheckSpawnCommand.class to org/chubby/github/mofoes/common/commands/CheckSpawnCommand.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x000001d7210cdd38@31c88ec8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/commands/CheckSpawnCommand with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/commands/CheckSpawnCommand in 972.7 ms
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/commands/CheckSpawnCommand in 36.34 ms
+[Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/entity/komodo/AbstractSorcerer$IllagerSpell.class to org/chubby/github/mofoes/common/entity/komodo/AbstractSorcerer$IllagerSpell.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/AbstractSorcerer$IllagerSpell with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/AbstractSorcerer$IllagerSpell in 113.3 ms
+[Architectury Transformer DEBUG] Transforming from org/chubby/github/mofoes/common/entity/komodo/AbstractKomodo$KomodoArmPoses.class to org/chubby/github/mofoes/common/entity/komodo/AbstractKomodo$KomodoArmPoses.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$146/0x00000129cd0cdd38@42e99e4a
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing org/chubby/github/mofoes/common/entity/komodo/AbstractKomodo$KomodoArmPoses with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: MoFoes-forge-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed org/chubby/github/mofoes/common/entity/komodo/AbstractKomodo$KomodoArmPoses in 25.74 ms

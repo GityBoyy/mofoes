@@ -17,6 +17,7 @@ import net.minecraft.world.entity.monster.piglin.PiglinAi;
 import net.minecraft.world.entity.player.Player;
 import org.chubby.github.mofoes.common.entity.EntityBison;
 import org.chubby.github.mofoes.common.entity.EntityHogmen;
+import org.chubby.github.mofoes.common.entity.ai.HogmanBruteAi;
 import org.chubby.github.mofoes.common.entity.ai.HogmenAi;
 import org.chubby.github.mofoes.common.entity.ai.memory.MemoryModules;
 
@@ -66,7 +67,7 @@ public class HogmenBruteSensor extends Sensor<LivingEntity>
                             list.add(piglin);
                         }
                     } else if (livingEntity instanceof Player player) {
-                        if (optional6.isEmpty() && !HogmenAi.isWearingGold(player) && entity.canAttack(livingEntity)) {
+                        if (optional6.isEmpty() && !HogmanBruteAi.isWearingFullChain(player) && entity.canAttack(livingEntity)) {
                             optional6 = Optional.of(player);
                         }
 

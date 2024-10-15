@@ -89,7 +89,7 @@ public class KomodoZealot extends AbstractSorcerer implements CrossbowAttackMob 
     }
 
     public static AttributeSupplier.Builder createAttributes() {
-        return AttributeSupplier.builder()
+        return createMonsterAttributes()
                 .add(Attributes.MOVEMENT_SPEED, 0.666666686D)
                 .add(Attributes.MAX_HEALTH, 500D)
                 .add(Attributes.ARMOR_TOUGHNESS, 5D)
@@ -154,26 +154,66 @@ public class KomodoZealot extends AbstractSorcerer implements CrossbowAttackMob 
     public void tick() {
         super.tick();
         this.bossEvent.setProgress(this.getHealth() / this.getMaxHealth());
-        if (this.getTarget() != null) {
-            // Switch weapons based on range
-            double distanceToTarget = this.distanceTo(this.getTarget());
 
-            if (distanceToTarget > 10.0D) {
-                // Switch to crossbow if target is far
-                this.setItemInHand(InteractionHand.MAIN_HAND, new ItemStack(Items.CROSSBOW));
-            } else {
-                // Switch to melee weapon if close
-                this.setItemInHand(InteractionHand.MAIN_HAND, getDefaultStack());
+        if (this.getTarget() != null) {
+            LivingEntity target = this.getTarget();
+            double distanceToTarget = this.distanceTo(target);
+
+            // Teleport away if target is too close
+            if (distanceToTarget < 5.0D && this.random.nextFloat() < 0.3F) {
+                this.teleportAwayFrom(target);
             }
 
-            // Call the appropriate attack based on weapon
-            if (this.hasCrossbow()) {
-                this.performRangedAttack(this.getTarget(), 1.0F);
-            } else if (this.isMelee()) {
-                this.swing(InteractionHand.MAIN_HAND);  // Simulate melee attack
+            // Switch weapon and attack based on distance
+            if (distanceToTarget > 10.0D) {
+                // Switch to crossbow
+                this.setItemInHand(InteractionHand.MAIN_HAND, new ItemStack(Items.CROSSBOW));
+                this.performRangedAttack(target, 1.0F);
+                if(this.random.nextInt() > 0.02F)
+                {
+                    this.throwPotionAtTarget(target);
+                }
+            } else {
+                // Switch to melee
+                this.setItemInHand(InteractionHand.MAIN_HAND, getDefaultStack());
+                this.performMeleeAttack(target);
+            }
+
+            // As health decreases, increase teleportation frequency
+            if (this.getHealth() < this.getMaxHealth() / 2) {
+                if (this.random.nextFloat() < 0.04F) {
+                    this.throwPotionAtTarget(this.getTarget());
+                }
+                if (this.random.nextFloat() < 0.5F) {
+                    this.teleportCloseTo(this.getTarget());
+                }
             }
         }
     }
+
+    private void performMeleeAttack(LivingEntity target)
+    {
+        this.goalSelector.addGoal(3,new MeleeAttackGoal(this,1.2D,false));
+    }
+
+    private void teleportAwayFrom(LivingEntity target) {
+        double dx = this.getX() - target.getX();
+        double dz = this.getZ() - target.getZ();
+        Vec3 teleportPos = new Vec3(this.getX() + dx * 2, this.getY(), this.getZ() + dz * 2);
+        this.doTeleport(teleportPos);
+    }
+
+    private void teleportCloseTo(LivingEntity target) {
+        Vec3 teleportPos = target.position().add(this.random.nextDouble() * 3 - 1.5, 0, this.random.nextDouble() * 3 - 1.5);
+        this.doTeleport(teleportPos);
+    }
+
+    private void doTeleport(Vec3 pos) {
+        this.level().addParticle(ParticleTypes.SMOKE, this.getX(), this.getY(), this.getZ(), 0, 0, 0);
+        this.teleportTo(pos.x, pos.y, pos.z);
+        this.level().playSound(null, this.getX(), this.getY(), this.getZ(), SoundEvents.ENDERMAN_TELEPORT, this.getSoundSource(), 1.0F, 1.0F);
+    }
+
 
 
     public boolean isAlliedTo(Entity entity) {
@@ -269,32 +309,19 @@ public class KomodoZealot extends AbstractSorcerer implements CrossbowAttackMob 
 
         Potion potion = determinePotionForTarget(target, g);
 
-        ThrownPotion thrownPotion = new ThrownPotion(this.level(), this){
-            @Override
-            protected boolean canHitEntity(Entity target) {
-                return !(target instanceof AbstractSorcerer);
-            }
-        };
+        ThrownPotion thrownPotion = new ThrownPotion(this.level(), this);
         thrownPotion.setItem(PotionUtils.setPotion(new ItemStack(Items.SPLASH_POTION), potion));
         thrownPotion.shoot(d, e + g * 0.2, f, 0.75F, 8.0F);
-
-        if (!this.isSilent()) {
-            this.level().playSound(null, this.getX(), this.getY(), this.getZ(), SoundEvents.WITCH_THROW, this.getSoundSource(), 1.0F, 0.8F + this.random.nextFloat() * 0.4F);
-        }
 
         this.level().addFreshEntity(thrownPotion);
     }
 
     private Potion determinePotionForTarget(LivingEntity target, double distance) {
-        if (target instanceof Raider) {
-            return target.getHealth() <= 4.0F ? Potions.HEALING : Potions.REGENERATION;
-        }
-
         if (distance >= 8.0 && !target.hasEffect(MobEffects.MOVEMENT_SLOWDOWN)) {
             return Potions.SLOWNESS;
         } else if (target.getHealth() >= 8.0F && !target.hasEffect(MobEffects.POISON)) {
             return Potions.POISON;
-        } else if (distance <= 3.0 && !target.hasEffect(MobEffects.WEAKNESS) && this.random.nextFloat() < 0.25F) {
+        } else if (distance <= 3.0 && this.random.nextFloat() < 0.25F) {
             return Potions.WEAKNESS;
         }
 
@@ -369,5 +396,10 @@ public class KomodoZealot extends AbstractSorcerer implements CrossbowAttackMob 
         protected AbstractSorcerer.IllagerSpell getSpell() {
             return AbstractSorcerer.IllagerSpell.DISAPPEAR;
         }
+    }
+
+    @Override
+    public boolean isNoGravity() {
+        return false;
     }
 }

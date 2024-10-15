@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "mofoes:desert_komodo_temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 126458343,
+    "spacing": 20,
+    "separation": 15
+  }
+}

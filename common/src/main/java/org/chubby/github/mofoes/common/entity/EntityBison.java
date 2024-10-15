@@ -54,23 +54,26 @@ public class EntityBison extends TamableAnimal implements NeutralMob {
     @Override
     protected void registerGoals() {
         super.registerGoals();
-        this.goalSelector.addGoal(0, new SitWhenOrderedToGoal(this));
+
+        // If not tamed, attack nearby entities
+        this.targetSelector.addGoal(1, new HurtByTargetGoal(this)); // Hostile to anything that hurts it
+        this.targetSelector.addGoal(2, new NearestAttackableTargetGoal<>(this, Player.class, true)); // Attack players by default
+
+        // Once tamed, only target specific enemies or if the owner is attacked
+        this.targetSelector.addGoal(3, new OwnerHurtByTargetGoal(this));
+        this.targetSelector.addGoal(4, new OwnerHurtTargetGoal(this));
+        this.targetSelector.addGoal(5, new ResetUniversalAngerTargetGoal<>(this, true));
+
+        // General behavior
+        this.goalSelector.addGoal(0, new SitWhenOrderedToGoal(this)); // Tamed can sit
         this.goalSelector.addGoal(1, new FloatGoal(this));
         this.goalSelector.addGoal(2, new BreedGoal(this, 1.2D));
-        this.goalSelector.addGoal(2, new ProtectAnimalGoal(this, Cow.class, true));
         this.goalSelector.addGoal(3, new TemptGoal(this, 1.3D, Ingredient.of(Items.GOLDEN_CARROT), false));
         this.goalSelector.addGoal(4, new FollowOwnerGoal(this, 1.25d, 18f, 7f, false));
-        this.goalSelector.addGoal(5, new FollowParentGoal(this, 1.1d));
-        this.goalSelector.addGoal(6, new WaterAvoidingRandomStrollGoal(this, 1.0D));
-        this.goalSelector.addGoal(7, new StayWithEntityGoal(this, EntityHogmen.class, 1.2F, true));
-        this.goalSelector.addGoal(8, new RandomLookAroundGoal(this));
-
-        this.targetSelector.addGoal(1, new HurtByTargetGoal(this));
-        this.targetSelector.addGoal(2, new OwnerHurtTargetGoal(this));
-        this.targetSelector.addGoal(3, new OwnerHurtByTargetGoal(this));
-        this.targetSelector.addGoal(4, new NearestAttackableTargetGoal<>(this, Player.class, false));
-        this.targetSelector.addGoal(8, new ResetUniversalAngerTargetGoal<>(this, true));
+        this.goalSelector.addGoal(5, new WaterAvoidingRandomStrollGoal(this, 1.0D));
+        this.goalSelector.addGoal(6, new RandomLookAroundGoal(this));
     }
+
 
     public static AttributeSupplier.Builder createAttributes()
     {
@@ -91,7 +94,8 @@ public class EntityBison extends TamableAnimal implements NeutralMob {
         {
             return true;
         }
-        return super.canAttack(target);
+        if(this.isTame()) return false;
+        return true;
     }
 
     @Nullable
@@ -270,4 +274,6 @@ public class EntityBison extends TamableAnimal implements NeutralMob {
             super(true);
         }
     }
+
+
 }
